@@ -73,7 +73,7 @@ function farm_weather_form($form, &$form_state) {
     ),
   );
 
-  // Birth notes.
+  // Weather notes.
   $form['weather']['notes'] = array(
     '#type' => 'text_format',
     '#title' => t('Notes'),
